@@ -37,12 +37,19 @@
 }
 
 body {
+  display: block;
   position: relative;
   font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  background: url("../images/main-bg.png");
+  word-break: break-word;
+  color: rgba(255, 255, 255, 1.00);
+  background: url("../images/main-bg.png") no-repeat top center, #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 img {
@@ -293,14 +300,13 @@ img {
   font-weight: 600;
   font-size: 24px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #322E2F;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background: #fdae37;
-  padding: 15px;
-  margin: 15px auto 0;
-  margin-bottom: 90px;
+  background: #E93E3A;
+  padding: 20px 25px;
+  margin: 20px auto 0;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   -moz-transition: all 0.5s;
